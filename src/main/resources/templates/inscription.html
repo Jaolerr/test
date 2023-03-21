@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/inscription}" method="post" modelAttribute="salarie">
+
+		<label>nom</label>
+		<input type="text" name="nom">
+		
+		<label>prenom</label>
+		<input type="text" name="prenom">
+
+		<label>Email</label>
+		<input type="text" name="email">
+		
+
+		
+		<button type="submit">Valider</button>
+	</form>
+
+</body>
+</html>
