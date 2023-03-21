@@ -22,7 +22,7 @@ public class SalarieController {
 		return "inscription";
 		
 	}
-	
+	//comm
 	@PostMapping("inscription")
 	public String inscription(@ModelAttribute("salarie") Salarie s) {
 		
